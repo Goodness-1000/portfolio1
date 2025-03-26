@@ -132,7 +132,7 @@ const App = () => {
          </div>
          </div> 
          {/*section4*/}
-          <div className="flex gap-8  h-screen items-center justify-center px-24">
+          <div className="flex pb-8 gap-8  h-screen items-center justify-center px-24">
           
           <div className='w[50%] items-start justify-center left-0'>
             <h1 className='text-7xl  text-white font-bold'>Got a project in<br/>
@@ -188,9 +188,49 @@ const App = () => {
             
           
               </div>
-    
-    <div  className="flex gap-8 h-[50vh] items-center justify-center px-24">
+    <hr/>
+    {/*footer*/}
+    <div  className="flex-col gap-16 h-[50vh] items-center justify-center px-24">
+         <div className='flex gap-16 justify-center pt-32'>
+         <div className='text-white flex'>
+          <img
+            src='/home.svg'
+            />Home
+          
+          </div>
+          <div className='text-white flex'>
+          <img
+            src='/user.svg'
+            />About me
+          
+          </div>
 
+          <div className='text-white flex'>
+          <img
+            src='/call.svg'
+            />Contact
+          
+          </div>
+         </div>
+          <div className='flex gap-8 justify-center pt-16'>
+            <img
+              src='/facebook.svg'
+            />
+            <img
+              src='/instagram.svg'
+            />
+            <img
+              src='/twitter.svg'
+            />
+            <img
+              src='/youtube.svg'
+            />
+            
+          </div>
+          <div className='float-right pt-8'>
+          <p className='text-sm text-white '>Terms of service-Privacy policy</p> 
+          </div>
+          
     </div>
          
     </div>
